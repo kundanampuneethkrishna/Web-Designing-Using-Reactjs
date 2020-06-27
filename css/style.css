@@ -1,0 +1,48 @@
+#para{
+	background-color: yellow;
+	color: green;
+}
+.para{
+	background-color: #ddd;
+	color: green;
+}
+#paragraph{
+	background-color: #ddd;
+	color: green;
+}
+.First,.Second,.Third,.Fourth{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 400px;
+	text-align: center;
+}
+img{
+	width: 200px;
+	padding: 10px;
+}
+.parent{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.parent{
+	flex-direction: column;
+}
+.First{
+	background-color: #c45e45;
+}
+@media screen and (max-width: 425px){
+	.parent
+}
+.First{
+	background-color: #c45e45;
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+     .parent{
+     	flex-direction: row-reverse;
+     	justify-content: space-between;
+     }
+     .First{
+     	background-color: #ddd;
+     	border-radius: 20px;
+     	width: 300px;
+     }
