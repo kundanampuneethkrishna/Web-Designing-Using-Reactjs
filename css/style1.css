@@ -1,0 +1,82 @@
+img{
+	width: 150px;
+	padding: 20px;
+	border-radius: 50%;
+}
+.first,.second,.third{
+  display: flex;
+}
+.profile{
+  flex: 50%;
+  padding: 1px;
+  height: 400px;
+}
+.profile,.carrier,.hobbies{
+	border :2px solid#000;
+    margin :2px;
+	width: 400px;
+	text-align:center;
+}
+.carrier{
+  flex: 50%;
+  padding: 1px;
+  height: 400px;
+
+}
+.skills{
+	flex: 50%;
+  padding: 5px;
+  height: 230px;
+}
+.skills{
+		border :2px solid#000;
+        margin :2px;
+	    width: 400px;
+	    text-align:left;
+}
+.education{
+	flex: 50%;
+  padding: 2px;
+  height: 230px;
+	 }
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+th,td{
+	text-align: left;
+	padding: 8px;
+}
+	{background-color: #4CAF50;
+	color: white;
+}
+.education{
+	border :2px solid#000;
+    margin :2px;
+	width: 400px;
+	
+	text-align:center;
+}
+.hobbies{
+		flex: 50%;
+       padding: 10
+       px;
+       height: 210px;
+}
+.hobbies{
+		border :2px solid#000;
+        margin :2px;
+	    width: 400px;
+	    text-align:left;
+}
+.certification{
+			flex: 50%;
+       padding: 2px;
+       height: 210px;
+}
+.certification{
+	border :2px solid#000;
+    margin :2px;
+	width: 400px;
+	text-align:left;
+}
