@@ -1,25 +1,51 @@
+#para{
+	background-color: yellow;
+	color: green;
+}
+.para{
+	background-color: #ddd;
+	color: green;
+}
+#paragraph{
+	background-color: #ddd;
+	color: green;
+}
+.first,.second,.third,.forth{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 400px;
+	text-align: center;
+}
+/*.first img,.second img,.third img,.forth img{
+	width: 200px;
+}*/
 img{
 	width: 200px;
-	padding: 20px;
-	border-radius: 50%;
+	padding: 10px;
 }
-.profile,.skills,.hobbies{
-	border :2px solid#000;
-    margin :2px;
-	width: 400px;
-	text-align:center;
-{
-{
-  box-sizing: border-box;
+.parent{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
 }
-
-.row{
-  display: flex;
+/*media queiries for mobile view*/
+@media screen and (max-width: 425px) {
+	.parent{
+		flex-direction: column;
+	}
+	.first{
+		background-color: #c45e45;
+	}
 }
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+/*tablet media quiries*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.parent{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.first,.second,.third,.forth{
+		background-color: #ddd;
+		border-radius: 20px;
+	    width: 300px;
+	}
 }
